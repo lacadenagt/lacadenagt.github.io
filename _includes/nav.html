@@ -1,0 +1,25 @@
+<!-- Representa el menu de las opciones, hace uso del archivo
+_data/navigation.yml, alli se inovan las variables  -->
+<nav class="nav">
+  <ul class="nav__list" role="menubar" itemscope itemtype="https://schema.org/SiteNavigationElement">
+    {% for page in site.data.navigation %}
+      {% if page.name == "Home" %}
+        <li itemprop="name" class="nav__item nav__item--isActive">
+          <a itemprop="url" class="nav__link focus--box-shadow"
+            role="menuitem"
+            aria-label="Home" href="{{ page.link | relative_url }}" title="{{ page.name }}">{{ page.name }}
+            {{ page.imagen}}
+          </a>
+        </li>
+      {% else %}
+        <li itemprop="name" class="nav__item">
+          <a itemprop="url" class="nav__link focus--box-shadow fondoNav"
+            role="menuitem"
+            aria-label="{{ page.name }}" href="{{ page.link | relative_url }}" title="{{ page.name }}">{{ page.imagen }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+  </ul>
+</nav>

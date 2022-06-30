@@ -1,0 +1,40 @@
+<!-- Representa el archivo donde esta la foto del perfil, fotos de email, website, github, etc -->
+ <aside class="aside">
+        <section class="section">
+          <div class="profile-main">
+            <button
+              class="profile-main__setting focus--box-shadow"
+              type="button"
+            >
+              <img
+                class="profile-main__photo"
+                src="{{ "/assets/img/profile/photo.webp"| prepend: site.baseurl | replace: '//', '/' }}"
+                alt="Logo ferretería la Cadena"
+                title="Logo ferretería la Cadena"
+              />
+            </button>
+          <h1 class="profile-main__name" title="Ferretería La Cadena">LA CADENA <img loading="lazy" src="/assets/img/profile/verified-user.webp" alt="Herramientas eléctricas" title="Ferretería La Cadena" class="verifiedProfile"></h1>
+          </div>
+          <ul class="statistics">
+            <li  class="statistics__entry fondoRS">
+              {% for page in site.data.socialNetworks %}
+                <a class="statistics__entry-description"  href="{{ page.link }}" title="{{ page.name }}"><img src="{{ page.image | relative_url }}" alt="{{ page.name }}" title="{{ page.name }}" class="zoomImagen redesSociales" rel="nofollow"></a>
+             <!--span class="statistics__entry-quantity"></span-->
+              {% endfor %}
+            </li>
+            <li class="centrarTexto">
+              <a href="/politica-de-cookies">Politica de cookies</a>
+             <a href="/politica-de-privacidad">Política de privacidad</a>
+             <!--span class="statistics__entry-quantity"-->
+             <a href="/credits">Créditos</a>
+             <!--/span-->
+             <hr>
+            </li>
+            <li class="statistics__entry">
+              <button type="button" data-cc="c-settings">Consentimiento de cookies
+              <img title="Consentimiento de cookies" alt="Consentimiento de cookies" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVRYheWXvUoDQRSFPyOayoD6DCoB/8DKn4dQ1ICC1mrjQ4gvkEYfRdOqRaIRFAtNGdtYaEBBzGqxs7A72bk7O0si6IHbzM0592Tn7txZ+O8YcOTNAxPaWgO4y2bHDnNAB/jWoqNyqZBzMDBp4OVUrucGpG1LredioCjkZhz0YrENfAAVTXQReKV7/4NoAyuaoYrS2rItPga0iDbXBXBFfPPp4QHXKrzQektpJ6JsUcQ1yknFi8BnDw18ofWJ3oSHwFCSywwYBA4kA5f4+5aEZ2ADKKhYA54seJ6qIWIBqGF+jE3im2lU5Uy8mtK2Qh6oG4TWBd6mgXMDDNsWD7BvEBsROAUDZ89EcDkJJbhO1y7kgVvi/82qwCsZOHWlaYWkJnzEbzgd4/hvR6Ym3MXuuG3iN1zwGpYSioeP9R3JwKmFSNY4kQz0/SiOw68OI4gfx1X8JgqPV1ME47hKtJ9esBzH4F8e3oFzoo9sCXgTireB5dDvp4EzpWV9IUnCkWDgOK2Yy0l4L+Qe+mFAGtc2ozyzgYahkIfdnSAC1+ExC0xpa337NPtb+AH20DPEGzQF7AAAAABJRU5ErkJggg=="/>
+              </button>
+              <span class="statistics__entry-quantity"></span> </li>
+          </ul>
+        </section>
+</aside>

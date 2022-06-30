@@ -1,0 +1,43 @@
+- name: index1
+  id: index1
+  href: "#index1"
+  whatsapp: https://wa.me/50240044592
+  categoria: DeWalt
+  descripcion: Línea DeWalt
+  srcImagen: /assets/img/marcas/dewalt.webp
+- name: index2
+  id: index2
+  href: "#index2"
+  whatsapp: https://wa.me/50240044592
+  categoria: Milwaukee
+  descripcion: Línea Milwaukee
+  srcImagen: /assets/img/marcas/milwaukee.webp
+- name: index3
+  id: index3
+  href: "#index3"
+  whatsapp: https://wa.me/50240044592
+  categoria: Truper
+  descripcion: Línea Truper
+  srcImagen: /assets/img/marcas/truper.webp
+- name: index4
+  id: index4
+  href: "#index4"
+  whatsapp: https://wa.me/50240044592
+  categoria: Stanley
+  descripcion: Línea Stanley
+  srcImagen: /assets/images/stanley.webp
+- name: index5
+  id: index5
+  href: "#index5"
+  whatsapp: https://wa.me/50240044592
+  categoria: Makita
+  descripcion: Línea Makita
+  srcImagen: /assets/images/makita.webp
+- name: index6
+  id: index6
+  href: "#index6"
+  whatsapp: https://wa.me/50240044592
+  categoria: Bosch
+  descripcion: Línea Bosch
+  srcImagen: /assets/images/bosch.webp
+

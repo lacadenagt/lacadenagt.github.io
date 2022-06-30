@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  {% include head.html %}
+
+<body style="blanco">
+
+    
+
+    <div class="wrapper" >
+      {% include nav.html %}
+
+      <main class="main">
+      	<br>
+	{{ content }}
+      	 
+      </main>
+
+	    <!-- AQUI VA EL aside, donde esta la imagen del usuario -->
+	    {% include aside.html %}
+
+    </div>
+    <script src="{{ "/assets/js/jquery-3.6.0.min.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+   <script src="{{ "/assets/js/owl_carousel/owl.carousel.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <script src="{{ "/assets/js/owl_carousel/script.js" | prepend: site.baseurl | replace: '//', '/' }}" async></script>
+    <script src="{{ "/assets/js/cookieconsent-2.8.0.js" | prepend: site.baseurl | replace: '//', '/' }}" defer></script>
+    <script src="{{ "/assets/js/cookieconsent-init.js" | prepend: site.baseurl | replace: '//', '/' }}" defer></script>	
+
+</body>
+</html>

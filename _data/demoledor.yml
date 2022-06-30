@@ -1,0 +1,12 @@
+- name: demoledor1
+  id: demoledor1
+  href: "#demoledor1"
+  categoria: Demoledor industrial
+  descripcion: Ideal para trabajos industriales para quitar materiales sobrantes en construcción, etc.
+  srcImagen: /assets/img/demoledor/demoledoremptop.webp
+- name: demoledor2
+  id: demoledor2
+  href: "#demoledor2"
+  categoria: Demodelor industrial
+  descripcion: Demodelor para trabajos industriales. Garantizado, super precios.
+  srcImagen: /assets/img/demoledor/demoledoringco.webp

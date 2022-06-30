@@ -1,0 +1,63 @@
+<section class="section sectionAlinear">
+  <header class="section__header">
+                              <h3 class="section__title" title="Tipos de compresores">Compresores</h3>
+
+            <!--a href="#" class="section__link">View all</a-->
+          </header>
+
+      <code>¿Buscas algún compresor?</code> Te ofrecemos una gran variedad de compresores.<br>
+      <strong>¿Qué compresor te recomendamos?</strong>
+      <p>Hay varios tamaños de compresor, dependiendo del tamaño del cilindro el tipo de trabajo que realiza varía. Por ejemplo: si el trabajo que realizas necesita de utilizar
+    pistolas de impacto de 1/2 pulgada, entonces te recomendamos los compresores de 80 litros, con este tamaño del cilindro trabajaras sin ningún inconveniente.</p>
+
+    <code>¿Qué tipos de trabajo se puede hacer con un compresor?</code>
+   <ol>
+  <li>Clavar</li>
+  <li>Engrapar</li>
+  <li>Pintar con pistolas de baja y alta presión</li>
+  <li>Repellar paredes</li>
+  <li>Inflar llantas</li>
+  <li>Sopletear</li>
+  <li>Utilizar con pistolas de impacto de 1/2, 3/4 y 1 pulgada</li>
+</ol>
+    <div itemscope itemtype="https://schema.org/Article" class = "row g-4 my-5 mx-auto owl-carousel owl-theme">
+        {% for page in site.data.compresores %}
+            <div class = "col product-item mx-auto">
+                <div class = "product-img">
+                    <img itemprop="image" loading="lazy" src ="{{ page.srcImagen }}" alt ="{{ page.descripcion }}"  title ="{{ page.descripcion }}" class ="img-fluid d-block mx-auto">
+                    <!--span class = "heart-icon" style>
+                        <i class = "far fa-heart"></i>
+                    </span-->
+                    <!--div class = "row btns w-100 mx-auto text-center">
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-cart-plus"></i> WhatsApp
+                        </button>
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-binoculars"></i> Mas info
+                        </button>
+                    </div-->
+                </div>
+                <div class = "product-info p-3">
+                    <span class = "product-type" itemprop="name">{{ page.categoria }}</span>
+                    <p class = "d-block text-dark text-decoration-none py-2" itemprop="description">{{ page.descripcion }}</p>
+                    <!--span class = "product-price">$ 100.50</span-->
+                    <!--div class = "rating d-flex mt-1">
+                     <div class="buy mt-3" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><a class="btn btn-success btn-block" href="{{ page.whatsapp }}">WhatsApp</a></div>
+
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                        <span>(25 reviews)</span>
+                    </div-->
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <strong>¿No tienes idea de cuál es el compresor indicado para tu trabajo?</strong>
+  <p>  No te preocupes, en nuestra tienda te ayudamos a elegir el mejor compresor para tu trabajo y te daremos varios consejos para que el producto te dure muchos años y
+    reduzcas significativamente las probabilidades que tengas algún inconveniente con el producto.
+    </p>
+    <strong><a class="btn btn-primary" href="/tiposCompresores" role="button">Consejos</a> para comprar el compresor adecuado al trabajo</strong>
+<br>
+<br>
+ </section>
