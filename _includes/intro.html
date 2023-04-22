@@ -1,0 +1,57 @@
+<section class="section sectionAlinear">
+    <header class="section__header">
+
+            <h2 class="section__title" title="Ferretería La Cadena">Ferretería La Cadena</h2>
+            <!--a href="#" class="section__link">View all</a-->
+          </header>
+    <p>Te ofrecemos una gran variedad de herramientas eléctricas y productos de ferretería en general para todo tipo de trabajos. La mayoría de nuestras marcas tiene respaldo de garantía, repuestos
+    y centros de servicios. La empresa caracteriza por apoyar a los pequeños emprendedores, donde clientes, amigos y empresas amigas hacen sus compras con nosotros por tener calidad en servicio,
+    respaldo y mantener los mejores precios en Guatemala.</p>
+
+  <header>
+             <h2 class="section__title" title="Nuestras marcas">Nuestras marcas</h2>
+            <!--a href="#" class="section__link">View all</a-->
+          </header>
+
+  <!--div class = "row my-3">
+        <h2 class="text-center" ></h2>
+    </div-->
+
+    <p class = "fw-light w-75 mx-auto text-justify">Contamos con una amplia variedad de marcas en nuestras líneas eléctricas como: Bosch, DeWalt, Milwaukee, Makita, Lincoln, BBT, Rhino Tools, Leo, Vikingo, etc.</p>
+
+    <!--img loading="lazy" title ="Marca Heron" alt="Marca Heron" class ="img-fluid d-block mx-auto" src="/assets/img/marcas/heron.webp"-->
+
+    <div class = "row g-4 my-5 mx-auto owl-carousel owl-theme" id="number1">
+        {% for page in site.data.index %}
+             <div class = "col product-item mx-auto">
+                <div class = "product-img">
+                    <img loading="lazy" src ="{{ page.srcImagen }}" alt ="{{ page.descripcion }}"  title ="{{ page.descripcion }}" class ="img-fluid d-block mx-auto">
+
+                 <span class = "heart-icon">
+                        <i class = "far fa-heart"></i>
+                    </span>
+                    <!--div class = "row btns w-100 mx-auto text-center">
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-cart-plus"></i> Add to Cart
+                        </button>
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-binoculars"></i> View
+                        </button>
+                    </div-->
+                 </div>
+                <div class = "product-info p-3">
+                    <span>{{ page.categoria }}</span>
+                    <p class = "d-block text-dark text-decoration-none py-2" title="{{ page.categoria }}">{{ page.descripcion }}</p>
+                    <!--div class = "rating d-flex mt-1">
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                    </div-->
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <br>
+
+</section>

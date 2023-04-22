@@ -1,0 +1,9 @@
+author:
+  email: "infolacadena@gmail.com"
+  url: "https://www.lacadenagt.com"
+excerpt_separator: <!--more-->
+baseurl: ""
+markdown: kramdown
+permalink: /posts/:year/:month/:day/:title
+plugins:
+  - jekyll-feed

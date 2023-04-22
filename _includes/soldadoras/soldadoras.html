@@ -1,0 +1,48 @@
+<section class="section sectionAlinear">
+
+   <header class="section__header">
+            <h3 class="section__title" title="Soldadoras">Soldadoras</h3>
+
+          </header>
+
+    <p>Hay una gran variedad de soldadoras. Soldadoras de bobina, soldadora inversora, soldadora MIG sin gas y con gas, soldadora TIG, etc.</p>
+
+    <h4>¿Qué tipo de soldadora me recomiendan?</h4>
+   <p> Es importante conocer el tipo de trabajo que necesitas realizar. Por ejemplo: si el trabajo que desempeñas es soldar láminas, trockets o diablos, puertas y ventanas, una
+    de tus opciones son las soldadoras normales o las que son de bobina. La mayoría de soldadoras trabajan con 120V y 220V, sin embargo hay unas que son exclusivamente para
+    trabajar con voltaje 110 y el amperaje puede variar desde 60A hasta 300A.</p>
+
+    <div class = "row g-4 my-5 mx-auto owl-carousel owl-theme" itemscope itemtype="https://schema.org/Article">
+        {% for page in site.data.soldadoras %}
+            <div class = "col product-item mx-auto">
+                <div class = "product-img">
+                    <img itemprop="image" loading="lazy" src ="{{ page.srcImagen }}" alt ="{{ page.descripcion }}"  title ="{{ page.descripcion }}" class ="img-fluid d-block mx-auto">
+                    <!--span class = "heart-icon" style>
+                        <i class = "far fa-heart"></i>
+                    </span-->
+                    <!--div class = "row btns w-100 mx-auto text-center">
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-cart-plus"></i> WhatsApp
+                        </button>
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-binoculars"></i> Mas info
+                        </button>
+                    </div-->
+                </div>
+                <div class = "product-info p-3">
+                    <span class = "product-type" itemprop="name">{{ page.categoria }}</span>
+                    <p class = "d-block text-dark text-decoration-none py-2" itemprop="description">{{ page.descripcion }}</p>
+                    <!--span class = "product-price">$ 100.50</span-->
+                    <!--div class = "rating d-flex mt-1">
+                     <div class="buy mt-3" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><a class="btn btn-success btn-block" href="{{ page.whatsapp }}">WhatsApp</a></div>
+
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                        <span>(25 reviews)</span>
+                    </div-->
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+      </section>

@@ -1,0 +1,21 @@
+- name: Facebook
+  image: assets/img/profile/facebook.webp
+  link: https://facebook.com/lacadenagt
+- name: Youtube
+  image: assets/img/profile/youtube.webp
+  link: https://youtube.com/@lacadenagt
+- name: Instagram
+  image: assets/img/profile/instagram.webp
+  link: https://instagram.com/lacadenagt
+- name: Waze
+  image: assets/img/profile/waze.webp
+  link: https://www.waze.com/en/live-map/directions/gt/guatemala/guate/mini-ferreteria-la-cadena?place=ChIJC7_XVdShiYURAFQ5O7uPTss
+- name: Google Maps
+  image: assets/img/profile/map.webp
+  link: https://g.page/lacadenagt
+- name: Whatsapp
+  image: assets/img/profile/whatsapp.webp
+  link: https://wa.me/50240044592
+- name: Llamar ahora
+  image: assets/img/profile/phone.webp
+  link: tel:+50240044592

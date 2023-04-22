@@ -1,0 +1,30 @@
+{% include intro.html %}
+
+<section class="section sectionAlinear">
+    <header class="section__header text-center">
+        <h2 class="section__title" title="Herramientas eléctricas más vendidos">Herramientas más vendidos</h2>
+        </header>
+        <p>Productos para carpintería, herrería, pinchazo, carwash, mecánica y otros con los mejores precios del mercado. Tenemos una gran variedad de marcas para todo tipo de trabajo.</p>
+
+    <div itemscope itemtype="https://schema.org/Article"  class = "row g-4 my-5 mx-auto owl-carousel owl-theme" id="number2" >
+        {% for page in site.data.productosDestacados %}
+            <div class = "col product-item mx-auto">
+                <div class = "product-img">
+                    <img itemprop="image" loading="lazy" src ="{{ page.srcImagen }}" alt ="{{ page.descripcion }}"  title ="{{ page.descripcion }}" class ="img-fluid d-block mx-auto">
+                </div>
+                <div class = "product-info p-3">
+                    <span class = "product-type" itemprop="name">{{ page.categoria }}</span>
+                    <p class = "d-block text-dark text-decoration-none py-2">{{ page.descripcion }}</p>
+                    <!--div class = "rating d-flex mt-1">
+                     <div class="buy mt-3"><a class="btn btn-success btn-block" href="{{ page.whatsapp }}">WhatsApp</a></div>
+                    </div-->
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+{% include soldadoras/soldadoras.html %}
+ {% include carpinteria/carpinteria.html %}
+{% include compresores/compresores.html %}
+{% include demodelor/demodelor.html %}
+  {% include carwash/carwash.html %}
