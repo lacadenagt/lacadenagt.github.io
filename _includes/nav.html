@@ -16,10 +16,11 @@ _data/navigation.yml, alli se inovan las variables  -->
           <a itemprop="url" class="nav__link focus--box-shadow fondoNav"
             role="menuitem"
             aria-label="{{ page.name }}" href="{{ page.link | relative_url }}" title="{{ page.name }}">{{ page.imagen }}
+            <span>{{ page.name }}</span>
           </a>
         </li>
       {% endif %}
     {% endfor %}
-
   </ul>
 </nav>
+
