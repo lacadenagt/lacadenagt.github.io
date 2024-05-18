@@ -6,8 +6,8 @@ layout: default
 <h2 style="text-align:center" title="Creditos de diseño del sitio">Cr&eacute;ditos</h2>
 
 > ### Diseño
-> - C&oacute;digo original: **[Alexandrshy](https://github.com/Alexandrshy/widgets/tree/master/assets_2)**
-> - Versi&oacute;n actual: **[Santos López](https://santoslopezt.me)**
+> - Inspirado en: **[Alexandrshy](https://github.com/Alexandrshy/widgets/tree/master/assets_2)**
+> - Versi&oacute;n actual: **[Santos López](https://santoslopez.github.io)**
 
 #### Iconos
 > - Facebook, WhatsApp, Youtube, Waze, Maps, Call, Instagram, Blog **[by FlatIcon](https://flaticon.com)**

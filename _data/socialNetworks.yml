@@ -1,9 +1,9 @@
 - name: Facebook
   image: assets/img/profile/facebook.webp
   link: https://facebook.com/lacadenagt
-- name: Youtube
-  image: assets/img/profile/youtube.webp
-  link: https://youtube.com/@lacadenagt
+- name: Tiktok
+  image: assets/img/profile/tik-tok.webp
+  link: https://tiktok.com/@lacadenagt
 - name: Instagram
   image: assets/img/profile/instagram.webp
   link: https://instagram.com/lacadenagt

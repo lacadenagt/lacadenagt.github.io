@@ -20,23 +20,24 @@ revisar este espacio o puedes contactarnos a nuestras redes sociales o llamarnos
       <div class="accordion-body">
         <strong>¿Trabajan con pagos contra entrega?</strong><br>
         <p>Realizamos pagos contra entrega en la mayoría de las zonas de la capital por medio de motoristas de confianza.
-        En otros departamentos solo aceptamos un pago anticipado en nuestra cuenta monetaria.</p>
+        En otros departamentos ofrecemos el servicio por medio de CargoExpress.</p>
          <strong>¿Qué transporte utilizan para hacer env&iacute;os?</strong><br>
-         <p>Utilizamos la empresa GuaTex para realizar los env&iacute;os fuera de la capital (otros departamentos).</p>
+         <p>Actualmente utilizamos la empresa CargoExpress para realizar los env&iacute;os fuera de la capital (otros departamentos).</p>
          <strong>¿C&oacute;mo estoy seguro si mi pedido a sido enviado?</strong><br>
-         <p>Cuando el cliente realiza el pago a la cuenta de la empresa, se verifica en el sistema online bancario si esto es así.
+         <p>El cliente puede rastrear su paquete en <a href="https://www.cargoexpreso.com/sv/tracking/">rastrear paquete</a>. Para esto es necesario ingresar el número o código de la guía (este código ferretería la cadena le envía al cliente en WhatsApp para que pueda verificar su paquete)</p>
+         <!--p>Cuando el cliente realiza el pago a la cuenta de la empresa, se verifica en el sistema online bancario si esto es así.
          Luego el producto es entregado a GuaTex y ellos entregan una boleta como constancia que la mercadería ha sido recibido.
          La constancia es enviado al cliente por medio de correo electrónico o medios como whatsapp, facebook, etc, esto para que el cliente tenga
-         la confianza que su producto está en manos de la empresa de transporte. <code>Sugerimos estar pendiente al celular porque los medios de transporte llaman cuando están por entregar el producto</code></p>
+         la confianza que su producto está en manos de la empresa de transporte. <code>Sugerimos estar pendiente al celular porque los medios de transporte llaman cuando están por entregar el producto</code></p-->
          <strong>¿Porqu&eacute; no he recibido mi producto?</strong><br>
-         <p>La entrega del producto puede demorar de 1 a 3 d&iacute;as, esto dependiendo del volumen de entregan que ellos tenga en su momento.</p>
+         <p>La entrega del producto puede demorar de 1 a 2 d&iacute;as, esto dependiendo del volumen de entrega que CargoExpress tenga en su momento.</p>
          <strong>Hice mi pago el viernes por la tarde. ¿Qué día recibo mi producto?</strong>
-         <p>La ferreter&iacute;a entrega el producto a GuaTex el mismo día solo si el horario en que se hizo el pago es antes de las 4:30pm.
-         Es posible que se entregue el producto al cliente hasta el lunes o martes debido que GuaTex no hace env&iacute;os los fines de semana.</p>
-        <strong>Tengo una empresa de transporte de confianza distinta a GuaTex. ¿Pueden enviármelo en el transporte de mi preferencia?</strong>
+         <p>La ferreter&iacute;a entrega el producto a CargoExpress el mismo día solo si el horario en que se hizo el pago (o como se haya acordado con el cliente, dependiendo el producto es posible que se requiere antes un pago por adelantado) es antes de las 3:30pm.
+         Es posible que se entregue el producto al cliente hasta el lunes o martes debido que CargoExpress no hace env&iacute;os los fines de semana.</p>
+        <strong>Tengo una empresa de transporte de confianza distinta a CargoExpress. ¿Pueden enviármelo en el transporte de mi preferencia?</strong>
         <p>En ocasiones realizamos envíos de productos con otras empresas de transporte. Es posible que las tarifas cambien.</p>
         <strong>¿Quién paga el transporte?</strong><br>
-        <p>La empresa paga el envío solamente si esto se acordo con el cliente en nuestra tienda, vía teléfonica o por correo. <code>De lo contrario, el cliente paga el envío de transporte.</code></p>
+        <p>La empresa paga el envío solamente si esto se acordo con el cliente en nuestra tienda, vía teléfonica o por correo. <code>De lo contrario, el cliente paga el envío de transporte o dependiendo el producto es posible que ferretería la cadena pague el total del envío.</code></p>
       </div>
     </div>
   </div>
@@ -49,7 +50,7 @@ revisar este espacio o puedes contactarnos a nuestras redes sociales o llamarnos
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="horarioServicio" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <strong><code>Ubicaci&oacute;n:</code></strong>
-          1era calle A 4-47 zona 11, mercado el guarda, ciudad de Guatemala.
+          1era calle A 4-47 zona 11 sobre la 5ta avenida, mercado el guarda, ciudad de Guatemala.
           <br>
         <strong><code>Horario:</code></strong>
         Lunes a s&aacute;bado: 8:00am - 18:00pm<br>
