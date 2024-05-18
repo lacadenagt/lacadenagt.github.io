@@ -177,7 +177,7 @@ productos que tenga un documento de compra que acredite que la herramienta se te
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-heading12">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
-       <strong>DeWalt, Stanley, Black & Decker, Campbell Hausfeld </strong>
+       <strong>DeWalt, Stanley, Black & Decker, Campbell Hausfeld, Emptop</strong>
       </button>
     </h2>
     <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent="#accordionFlushExample">
