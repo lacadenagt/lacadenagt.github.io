@@ -190,4 +190,4 @@ productos que tenga un documento de compra que acredite que la herramienta se te
   </div>
 </div>
 <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script-->
-<script src="{{ "/assets/js/bootstrap-5.0.2.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+<script src="{{ "/assets/js/bootstrap.bundle.min-5.3.3.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>

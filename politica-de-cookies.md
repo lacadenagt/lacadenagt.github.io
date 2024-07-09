@@ -159,4 +159,4 @@ Puede obtener [más información](https://www.youronlinechoices.com/es/)  sobre 
 <code>El sitio[lacadenagt.com](lacadenagt.com) cuyo responsable es Santos López, estudiante universitario pueden modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos, por ello se aconseja a los usuarios que la visiten periódicamente.</code>
 
 **Cuando se produzcan cambios significativos en esta Política de Cookies, estos se comunicarán a los usuarios bien mediante la web o a través de correo electrónico a los usuarios registrados.**
-<script src="{{ "/assets/js/bootstrap-5.0.2.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+<script src="{{ "/assets/js/bootstrap.bundle.min-5.3.3.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
