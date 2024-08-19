@@ -9,8 +9,8 @@
               <img
                 class="profile-main__photo"
                 src="{{ "/assets/img/profile/photo.webp"| prepend: site.baseurl | replace: '//', '/' }}"
-                alt="Logo ferretería la Cadena"
-                title="Logo ferretería la Cadena"
+                alt="Logo de perfil ferretería la Cadena"
+                title="Imagen de logo de Ferretería la Cadena"
               />
             </button>
           <h2 class="profile-main__name" title="Ferretería La Cadena">LA CADENA <img loading="lazy" src="/assets/img/profile/verified-user.webp" alt="Herramientas eléctricas" title="Ferretería La Cadena" class="verifiedProfile"></h2>
@@ -18,21 +18,21 @@
           <ul class="statistics">
             <li  class="statistics__entry fondoRS">
               {% for page in site.data.socialNetworks %}
-                <a class="statistics__entry-description"  href="{{ page.link }}" title="{{ page.name }}"><img src="{{ page.image | relative_url }}" alt="{{ page.name }}" title="{{ page.name }}" class="zoomImagen redesSociales" rel="nofollow"></a>
+                <a class="statistics__entry-description"  href="{{ page.link }}" title="{{ page.name }}"><img src="{{ page.image | relative_url }}" alt="Imagen de {{ page.name }}" title="Visita la página de {{ page.name }}" class="zoomImagen redesSociales" rel="nofollow"></a>
              <!--span class="statistics__entry-quantity"></span-->
               {% endfor %}
             </li>
             <li class="centrarTexto">
-              <a href="/politica-de-cookies" rel="nofollow">Politica de cookies</a>
-             <a href="/politica-de-privacidad" rel="nofollow">Política de privacidad</a>
+              <a href="/politica-de-cookies" rel="nofollow" title="Visita la página de política de cookies para más información">Política de cookies</a>
+             <a href="/politica-de-privacidad" rel="nofollow" title="Visita la página de política de privacidad para más información">Política de privacidad</a>
              <!--span class="statistics__entry-quantity"-->
-             <a href="/credits" rel="nofollow">Créditos</a>
+             <a href="/credits" rel="nofollow" title="Visita la página para ver más información de los créditos">Créditos</a>
              <!--/span-->
              <hr>
             </li>
             <li class="statistics__entry">
               <button type="button" data-cc="c-settings">Consentimiento de cookies
-              <img title="Consentimiento de cookies" alt="Consentimiento de cookies" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVRYheWXvUoDQRSFPyOayoD6DCoB/8DKn4dQ1ICC1mrjQ4gvkEYfRdOqRaIRFAtNGdtYaEBBzGqxs7A72bk7O0si6IHbzM0592Tn7txZ+O8YcOTNAxPaWgO4y2bHDnNAB/jWoqNyqZBzMDBp4OVUrucGpG1LredioCjkZhz0YrENfAAVTXQReKV7/4NoAyuaoYrS2rItPga0iDbXBXBFfPPp4QHXKrzQektpJ6JsUcQ1yknFi8BnDw18ofWJ3oSHwFCSywwYBA4kA5f4+5aEZ2ADKKhYA54seJ6qIWIBqGF+jE3im2lU5Uy8mtK2Qh6oG4TWBd6mgXMDDNsWD7BvEBsROAUDZ89EcDkJJbhO1y7kgVvi/82qwCsZOHWlaYWkJnzEbzgd4/hvR6Ym3MXuuG3iN1zwGpYSioeP9R3JwKmFSNY4kQz0/SiOw68OI4gfx1X8JgqPV1ME47hKtJ9esBzH4F8e3oFzoo9sCXgTireB5dDvp4EzpWV9IUnCkWDgOK2Yy0l4L+Qe+mFAGtc2ozyzgYahkIfdnSAC1+ExC0xpa337NPtb+AH20DPEGzQF7AAAAABJRU5ErkJggg=="/>
+              <img title="Consentimiento de cookies" alt="Imagen de consentimiento de cookies" title="Visita la página de consentimiento de cookies para más información" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVRYheWXvUoDQRSFPyOayoD6DCoB/8DKn4dQ1ICC1mrjQ4gvkEYfRdOqRaIRFAtNGdtYaEBBzGqxs7A72bk7O0si6IHbzM0592Tn7txZ+O8YcOTNAxPaWgO4y2bHDnNAB/jWoqNyqZBzMDBp4OVUrucGpG1LredioCjkZhz0YrENfAAVTXQReKV7/4NoAyuaoYrS2rItPga0iDbXBXBFfPPp4QHXKrzQektpJ6JsUcQ1yknFi8BnDw18ofWJ3oSHwFCSywwYBA4kA5f4+5aEZ2ADKKhYA54seJ6qIWIBqGF+jE3im2lU5Uy8mtK2Qh6oG4TWBd6mgXMDDNsWD7BvEBsROAUDZ89EcDkJJbhO1y7kgVvi/82qwCsZOHWlaYWkJnzEbzgd4/hvR6Ym3MXuuG3iN1zwGpYSioeP9R3JwKmFSNY4kQz0/SiOw68OI4gfx1X8JgqPV1ME47hKtJ9esBzH4F8e3oFzoo9sCXgTireB5dDvp4EzpWV9IUnCkWDgOK2Yy0l4L+Qe+mFAGtc2ozyzgYahkIfdnSAC1+ExC0xpa337NPtb+AH20DPEGzQF7AAAAABJRU5ErkJggg=="/>
               </button>
               <span class="statistics__entry-quantity"></span> </li>
           </ul>
