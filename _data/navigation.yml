@@ -1,18 +1,18 @@
 - name: Home
   link: /
-  imagen: <img alt="Home" title="Home" class="zoomImagen nav__icon" src="/assets/img/profile/home.webp">
+  imagen: <img alt="Foto de menu Home" title="Home" class="zoomImagen nav__icon" src="/assets/img/profile/home.webp">
 - name: Herramientas
   link: /herramientas
-  imagen: <img alt="Herramientas eléctricas" title="Herramientas eléctricas" class="zoomImagen nav__icon" src="/assets/img/profile/welder.webp">
+  imagen: <img alt="Foto de menu Herramientas eléctricas" title="Herramientas eléctricas" class="zoomImagen nav__icon" src="/assets/img/profile/welder.webp">
 - name: Posts
   link: /posts
-  imagen: <img class="zoomImagen nav__icon" title="Blog" alt="Blog" src="/assets/img/profile/blog.webp">
+  imagen: <img class="zoomImagen nav__icon" title="Blog" alt="Foto de menu Blog" src="/assets/img/profile/blog.webp">
 - name: Preguntas frecuentes
   link: /faq
-  imagen: <img class="zoomImagen nav__icon"  title="Preguntas frecuentes" alt="Preguntas frecuentes" src="/assets/img/profile/faq.webp">
+  imagen: <img class="zoomImagen nav__icon"  title="Preguntas frecuentes" alt="Foto de menu preguntas frecuentes" src="/assets/img/profile/faq.webp">
 - name: Centro de servicios autorizados
   link: /cs
-  imagen: <img class="zoomImagen nav__icon" title="Centro de servicios autorizados" alt="Centro de servicios autorizados" src="/assets/img/profile/mecanico.webp">
+  imagen: <img class="zoomImagen nav__icon" title="Centro de servicios autorizados" alt="Foto de menu centro de servicios autorizados" src="/assets/img/profile/mecanico.webp">
 - name: Contactar
   link: /contactar
-  imagen: <img class="zoomImagen nav__icon" title="Contactar" alt="Contactar" src="/assets/img/profile/gmail.webp"/>
+  imagen: <img class="zoomImagen nav__icon" title="Contactar" alt="Foto de menu contactar" src="/assets/img/profile/gmail.webp"/>
