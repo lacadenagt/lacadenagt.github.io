@@ -1,15 +1,11 @@
-# Homepage
-[https://lacadenagt.com](https://lacadenagt.github.io) 
+# lacadenagt.github.io
+[lacadenagt.com](https://lacadenagt.com)
 
+## Facebook
+[facebook.com/lacadenagt](https://facebook.com/lacadenagt)
 
-# comandos Ruby
-bundle install
-bundle exec jekyll serve
+## Instagram
+[instagram.com/lacadenagt](https://instagram.com/lacadenagt)
 
-https://jekyllrb.com/docs/ruby-101/
-
-
-# slider.yml
-Se colocan las imagenes que se muestra en la portada
-para utilizarlo se hace uso del archivo section.html
-alli se recorre con un for para mostrarlo
+## TikTok
+[tiktok.com/@lacadenagt](https://tiktok.com/@lacadenagt)
