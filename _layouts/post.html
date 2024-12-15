@@ -3,7 +3,7 @@ title: Blog
 layout: default
 ---
 <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
-	<h2 class="ltext-105 cl0 txt-center" title="{{ page.title }}">
+	<h2 class="ltext-105 cl0 txt-center" title="{{ page.title }}" style="color:blue">
 {{ page.title }}
 	</h2>
   <span class="post-date">{{ page.date | date: "%A %B %-d, %Y" }}</span>
@@ -11,12 +11,11 @@ layout: default
 <section class="bg0 p-t-104 p-b-116">
     <div class="container">
         <div class=" flex-tr">
-{{ content }}
-</div>
-</div>
-</div>
+          {{ content }}
+        </div>
+    </div>
+    <!--/div-->
 <hr>
-
 <div id="disqus_thread"></div>
 <script  type="text/plain" data-cookiecategory="necessary" defer>
     var disqus_config = function () {
