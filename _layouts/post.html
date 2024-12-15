@@ -2,12 +2,19 @@
 title: Blog
 layout: default
 ---
-
-<h3 title="{{ page.title }}">{{ page.title }}</h3>
-<span class="post-date">{{ page.date | date: "%A %B %-d, %Y" }}</span>
-
+<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<h2 class="ltext-105 cl0 txt-center" title="{{ page.title }}">
+{{ page.title }}
+	</h2>
+  <span class="post-date">{{ page.date | date: "%A %B %-d, %Y" }}</span>
+</section>
+<section class="bg0 p-t-104 p-b-116">
+    <div class="container">
+        <div class=" flex-tr">
 {{ content }}
-
+</div>
+</div>
+</div>
 <hr>
 
 <div id="disqus_thread"></div>

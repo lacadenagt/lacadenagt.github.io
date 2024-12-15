@@ -7,3 +7,6 @@ markdown: kramdown
 permalink: /posts/:year/:month/:day/:title
 plugins:
   - jekyll-feed
+  #- jekyll-paginate
+paginate: 10
+paginate_path: "page/num:"

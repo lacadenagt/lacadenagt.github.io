@@ -1,0 +1,131 @@
+- nombreProducto: Compresor libre de aceite, 24L, 2-2/3HP, 127V, TRUPER
+  imagen: compresor/COMP-24S.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: precio
+  categoria: compresores
+  block: 2
+
+- nombreProducto: Compresor lubricado, 40L, 3HP, horizontal, 127V, PRETUL
+  imagen: compresor/COMP-40LP.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: precio
+  categoria: compresores
+  block: 2
+
+- nombreProducto: Compresor libre de aceite, 50L, 3HP, vertical, 127V, TRUPER
+  imagen: compresor/COMP-50S.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: precio
+  categoria: compresores
+  block: 2
+
+- nombreProducto: Compresor lubricado, 50L, 3-1/2HP, horizontal, 127V, TRUPER
+  imagen: compresor/COMP-50LT.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: "precio"
+  categoria: compresores
+  block: 2
+
+- nombreProducto: Compresor lubricado, 50L, 3-1/2HP, vertical, 127V, TRUPER
+  imagen: compresor/COMP-50LV.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: precio
+  categoria: compresores
+  block: 2
+
+- nombreProducto: Compresor lubricado, de banda, 60L, hor, 4HP, 127V, TRUPER
+  imagen: compresor/COMP-60LB.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: precio
+  categoria: compresores
+  block: 2
+
+
+- nombreProducto: Compresor lubricado, 80L, 3-1/2HP, vertical, 127V, TRUPER
+  imagen: compresor/COMP-80LV.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: precio
+  categoria: compresores
+  block: 2
+
+- nombreProducto: Compresor lubricado, de banda, 240L, 4HP, vert, 220V, TRUPER
+  imagen: compresor/COMP-240LV.webp
+  altImagen: estoy kkk
+  textoQuickView: Quick View
+  enlace: "#"
+  precioProducto: precio
+  categoria: compresores
+  block: 2
+
+- nombreProducto: Soldadora inversora 100A, 127V, PRETUL
+  imagen: soldadoras/SOIN-101P.jpg
+  textoQuickView: Te odio
+  enlace: "#"
+  precioProducto: precio
+  categoria: soldadoras
+  block: 3
+  
+- nombreProducto: Soldadora inversora 130A, 127V, TRUPER
+  imagen: soldadoras/SOIN-130.jpg
+  textoQuickView: Te odio
+  enlace: "#"
+  precioProducto: precio
+  categoria: soldadoras
+  block: 3
+
+- nombreProducto: Soldadora inversora, 160A, Bi-voltaje 127/220V, PRETUL
+  imagen: soldadoras/SOIN-120-160P.jpg
+  textoQuickView: Te odio
+  enlace: "#"
+  precioProducto: precio
+  categoria: soldadoras
+  block: 3
+  
+- nombreProducto: Cortadora de metal de 14 marca Bosch
+  imagen: tronzadoras/tronzadoraBosch.jpg
+  textoQuickView: Te odio
+  enlace: "#"
+  precioProducto: precio
+  categoria: tronzadoras
+  block: 3
+
+- nombreProducto: Tronzadora / cortadora de metales 14", mango en "D", 2200 W
+  imagen: tronzadoras/CM-14N.jpg
+  textoQuickView: Te odio
+  enlace: "#"
+  precioProducto: precio
+  categoria: tronzadoras
+  block: 3
+
+- nombreProducto: Pulidora de 9 2200 watts
+  imagen: pulidoras/pulidora9Bosch.jpg
+  textoQuickView: Te odio
+  enlace: "#"
+  precioProducto: precio
+  categoria: pulidoras
+  block: 4
+
+- nombreProducto: Esmeriladora angular 9", 2100W, TRUPER INDUSTRIAL
+  imagen: pulidoras/pulidora9Truper.jpg
+  textoQuickView: Te odio
+  enlace: "#"
+  precioProducto: precio
+  categoria: pulidoras
+  block: 4
+
+
+  
