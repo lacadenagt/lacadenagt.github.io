@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+ 
+  <url>
+    <loc>https://localhost:4000/cuidado-estafas</loc>
+    <lastmod>2022-05-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://localhost:4000/tiposCompresores</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://localhost:4000/consejosComprarHerramientasElectricas</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
+
+  
+    
+      
+        
+            
+        
+      
+    
+  
+
+  
+
+  
+    
+      
+        
+          <url>
+            <loc>https://localhost:4000/contactar</loc>
+            <lastmod>2025-03-17</lastmod>
+            <priority>0.9</priority>
+          </url>
+        
+      
+    
+  
+
+  
+    
+      
+        
+            
+                <url>
+                <loc>https://localhost:4000/cs</loc>
+                <lastmod>2025-03-17</lastmod>
+                
+                    <priority>0.5</priority>
+                
+                </url>
+            
+        
+      
+    
+  
+
+  
+    
+      
+        
+            
+                <url>
+                <loc>https://localhost:4000/faq</loc>
+                <lastmod>2025-03-17</lastmod>
+                
+                    <priority>0.5</priority>
+                
+                </url>
+            
+        
+      
+    
+  
+
+  
+    
+      
+        
+            
+                <url>
+                <loc>https://localhost:4000/herramientas</loc>
+                <lastmod>2025-03-17</lastmod>
+                
+                    <priority>0.5</priority>
+                
+                </url>
+            
+        
+      
+    
+  
+
+  
+    
+      
+        
+          <url>
+            <loc>https://localhost:4000/</loc>
+            <lastmod>2025-03-17</lastmod>
+            <priority>1.0</priority>
+          </url>
+        
+      
+    
+  
+
+  
+    
+      
+        
+            
+                <url>
+                <loc>https://localhost:4000/politica-de-cookies</loc>
+                <lastmod>2025-03-17</lastmod>
+                
+                    <priority>0.5</priority>
+                
+                </url>
+            
+        
+      
+    
+  
+
+  
+    
+      
+        
+            
+                <url>
+                <loc>https://localhost:4000/politica-de-privacidad</loc>
+                <lastmod>2025-03-17</lastmod>
+                
+                    <priority>0.5</priority>
+                
+                </url>
+            
+        
+      
+    
+  
+
+  
+    
+      
+        
+            
+                <url>
+                <loc>https://localhost:4000/posts</loc>
+                <lastmod>2025-03-17</lastmod>
+                
+                    <priority>0.5</priority>
+                
+                </url>
+            
+        
+      
+    
+  
+
+  
+    
+      
+        
+            
+                <url>
+                <loc>https://localhost:4000/product</loc>
+                <lastmod>2025-03-17</lastmod>
+                
+                    <priority>0.5</priority>
+                
+                </url>
+            
+        
+      
+    
+  
+
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</urlset>

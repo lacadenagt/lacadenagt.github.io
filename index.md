@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Ferretería La Cadena | Ferretería en Guatemala"
-description: Encuentra las mejores herramientas eléctricas en Ferretería La Cadena. Ofrecemos una amplia selección de soldadoras, compresores y maquinarias para carpintería a precios competitivos en Guatemala.
-og_description: Encuentra las mejores herramientas eléctricas en Ferretería La Cadena. Ofrecemos una amplia selección de soldadoras, compresores y maquinarias para carpintería a precios competitivos en Guatemala.
+description: Compra herramientas eléctricas de calidad en Ferretería La Cadena. Soldadoras, compresores y maquinaria al mejor precio en Guatemala. ¡Envíos rápidos!
+og_description: Compra herramientas eléctricas de calidad en Ferretería La Cadena. Soldadoras, compresores y maquinaria al mejor precio en Guatemala. ¡Envíos rápidos!
 ---
 {% include section.html %}
 {% include banner.html %}

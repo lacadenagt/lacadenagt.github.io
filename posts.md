@@ -11,7 +11,7 @@ og_description: Conoce más sobre las herramientas y productos de ferretería en
     }
 </style>
 <div style="margin-left:7%;margin-right:7%;margin-top:10%;margin-bottom:10%">
-<h2 style="text-align:center" title="herramientas eléctricas">Blog</h2>
+<h1 style="text-align:center" title="herramientas eléctricas">Blog</h1>
 {% for post in site.posts limit:5 %}
 <div class="card mb-3" style="max-width:100%;">
   <div class="row g-0">
@@ -23,7 +23,7 @@ og_description: Conoce más sobre las herramientas y productos de ferretería en
     <div class="col-md-8">
       <div class="card-body">
         <a href="{{ post.url }}" title="Más información de {{ post.title }} visita el enlace.">
-            <h3 class="card-title tituloH3Skills">{{ post.title }}</h3>
+            <h2 class="card-title tituloH3Skills">{{ post.title }}</h2>
         </a>
         <p class="card-text">{{ post.description }}</p>
         {{ post.enlaces }}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+
+ <title></title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2025-03-17T00:02:00-06:00</updated>
+ <author>
+   <name></name>
+   <uri>https://www.lacadenagt.com</uri>
+   <email>infolacadena@gmail.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>Cuidado: Estafadores usan el nombre de Ferretería La Cadena para engañarlos.</title>
+   <link href="http://localhost:4000/cuidado-estafas"/>
+   <id>http://localhost:4000/cuidado-estafas</id>
+   <updated>2022-05-28T00:00:00-06:00</updated>
+   <content type="html">&lt;p&gt;A todos nuestros clientes y amigos informales que &lt;strong&gt;en los últimos 6 meses hemos detectado que personas ajenas a la empresa utilizan el nombre de Mini ferretería La Cadena&lt;/strong&gt; con el próposito de estafar.&lt;/p&gt; &lt;!--more--&gt; &lt;h3 id=&quot;modalidad-de-engaño-que-utilizan-los-estafadores&quot;&gt;Modalidad de engaño que utilizan los estafadores&lt;/h3&gt; &lt;p&gt;Estas personas ajenas a Ferretería La Cadena...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>¿Qué compresor eléctrico comprar?</title>
+   <link href="http://localhost:4000/tiposCompresores"/>
+   <id>http://localhost:4000/tiposDecompresores</id>
+   <updated>2022-04-23T00:00:00-06:00</updated>
+   <content type="html">&lt;p&gt;Dependiendo del tipo de trabajo que desempeñas es posible que no tengas que invertir tu dinero en los compresores más caros. Es aconsejable que sepas bien a que tipo de trabajo lo vas a utilizar. Esto debido que si quieres utilizarlo para sacar llantas de carros no debes de comprar...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Las mejores marcas de herramientas eléctricas</title>
+   <link href="http://localhost:4000/consejosComprarHerramientasElectricas"/>
+   <id>http://localhost:4000/marcasHerramientas</id>
+   <updated>2022-04-23T00:00:00-06:00</updated>
+   <content type="html">&lt;p&gt;Todas las personas cuando quieren realizar una compra de algún producto eléctrico algunas veces no tienen idea de &lt;strong&gt;¿Cuál es la mejor opción o herramienta para comprar?&lt;/strong&gt; Es posible que el trabajo que necesitas realizar es distinto al de otra persona. Posiblemente lo quieras utilizar para trabajos caseros y alguien...</content>
+ </entry>
+
+ 
+
+</feed>

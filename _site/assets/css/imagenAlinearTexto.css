@@ -1,0 +1,19 @@
+.icon-text-wrapper {
+    display: flex;
+    flex-direction: column; /* Mostrar los elementos hijos en una columna */
+    gap: 16px; /* Espacio entre los elementos */
+}
+
+.icon-text-wrapper a {
+    display: flex; /* Coloca el ícono y el texto en una fila */
+    align-items: center; /* Alinea el ícono y el texto verticalmente al centro */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #0A66C2; /* Color del texto del enlace */
+    font-size: 16px; /* Tamaño de la fuente del texto */
+}
+
+.icon-text-wrapper svg {
+    width: 24px; /* Tamaño del ícono */
+    height: 24px;
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
