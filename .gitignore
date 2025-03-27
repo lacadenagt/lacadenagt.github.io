@@ -1,1 +1,15 @@
+# Archivos generados por Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Archivos de logs
+*.log
+
+# Configuración local de Jekyll (si usas un _config.yml para desarrollo)
+_config.local.yml
+
+# Archivos temporales del sistema
 .DS_Store
+Thumbs.db
